@@ -2,9 +2,412 @@
 	(version 20260306)
 	(generator "eeschema")
 	(generator_version "10.0")
-	(uuid 044e3193-aa4e-4ad4-a125-51ae4829b9ed)
+	(uuid "044e3193-aa4e-4ad4-a125-51ae4829b9ed")
 	(paper "A4")
+	(title_block
+		(title "Conceptual Overview")
+		(date "2026-06-09")
+		(rev "0")
+	)
 	(lib_symbols)
+	(text_box "Magnetometers"
+		(exclude_from_sim no)
+		(at 132.08 118.11 0)
+		(size 16.51 8.89)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(type color)
+			(color 0 255 255 1)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "06439741-149c-489d-a091-72084aa05004")
+	)
+	(text_box "CS30 Cameras"
+		(exclude_from_sim no)
+		(at 46.99 127 0)
+		(size 20.32 7.62)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(type color)
+			(color 0 255 255 1)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "1d2ea9b8-0808-4aad-a8d1-d09ab51f5090")
+	)
+	(text_box "12VDC supply"
+		(exclude_from_sim no)
+		(at 46.99 46.99 0)
+		(size 17.78 11.43)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(type color)
+			(color 235 255 86 1)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "3e8ff6ca-1f4a-41c5-bfdc-9d0af2fa49b2")
+	)
+	(text_box "Motors"
+		(exclude_from_sim no)
+		(at 95.25 95.25 0)
+		(size 11.43 8.89)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(type color)
+			(color 255 124 34 1)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "47598122-86c4-44ae-9910-9123e53360d5")
+	)
+	(text_box ""
+		(exclude_from_sim no)
+		(at 76.2 26.67 0)
+		(size 0 0)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "48e04f22-9b0b-4146-b193-e3092b45a728")
+	)
+	(text_box "Protection Circuits"
+		(exclude_from_sim no)
+		(at 46.99 73.66 0)
+		(size 17.78 6.35)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(type color)
+			(color 255 110 95 1)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "4f18a03d-05ab-43ba-9ae9-c21cbb6c49ef")
+	)
+	(text_box "AMT10X Rotary Encoders"
+		(exclude_from_sim no)
+		(at 107.95 118.11 0)
+		(size 16.51 8.89)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(type color)
+			(color 0 255 255 1)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "81ee8f8c-1506-42f0-b5a4-050f58f8907d")
+	)
+	(text_box "TOF Sensor"
+		(exclude_from_sim no)
+		(at 151.13 95.25 0)
+		(size 16.51 8.89)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(type color)
+			(color 0 255 255 1)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "9a3d8604-3985-47d5-94d4-eb84b992040a")
+	)
+	(text_box "STM32 Nucleo Board"
+		(exclude_from_sim no)
+		(at 116.84 92.71 0)
+		(size 21.59 15.24)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(type color)
+			(color 49 255 136 1)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "b8d43f13-aa25-43ca-9f38-c90baafe5c21")
+	)
+	(text_box "5VDC Supply"
+		(exclude_from_sim no)
+		(at 111.76 49.53 0)
+		(size 15.24 6.35)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(type color)
+			(color 235 255 86 1)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "ce94fc18-6c86-49c3-b89f-e028940bbd9c")
+	)
+	(text_box "Jetson Orin Nano"
+		(exclude_from_sim no)
+		(at 38.1 91.44 0)
+		(size 35.56 20.32)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(type color)
+			(color 49 255 136 1)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "e74cad01-fedb-43e6-83e0-d721cef14a14")
+	)
+	(text_box "Battery Pack\n4x 3.7V cells (protected)"
+		(exclude_from_sim no)
+		(at 68.58 19.05 0)
+		(size 25.4 13.97)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "f0d25e76-c52d-431b-99a1-f3abbba6b100")
+	)
+	(polyline
+		(pts
+			(xy 55.88 26.67) (xy 55.88 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2a94bf9b-88b5-48e1-8051-81e0690b26b5")
+	)
+	(polyline
+		(pts
+			(xy 120.65 107.95) (xy 120.65 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2f355122-d04b-43fc-97bc-1b9d4875ed7d")
+	)
+	(polyline
+		(pts
+			(xy 120.65 55.88) (xy 120.65 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "34edd6f0-f5a2-472c-82e6-f0fda509f550")
+	)
+	(polyline
+		(pts
+			(xy 135.89 107.95) (xy 135.89 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3ad559bc-bc38-495c-9524-018c358ba81f")
+	)
+	(polyline
+		(pts
+			(xy 55.88 58.42) (xy 55.88 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "400ae9ea-0c6e-40cd-b8a3-aef44545d3ad")
+	)
+	(polyline
+		(pts
+			(xy 64.77 53.34) (xy 81.28 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4f11bc11-3bd2-47b9-9219-b6de0d2c147d")
+	)
+	(polyline
+		(pts
+			(xy 55.88 73.66) (xy 60.96 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "68265793-1b1f-4989-bbc1-9443718055ad")
+	)
+	(polyline
+		(pts
+			(xy 55.88 127) (xy 59.69 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7a8a20a1-d8d1-49df-9685-7cbfe47abae3")
+	)
+	(polyline
+		(pts
+			(xy 55.88 111.76) (xy 55.88 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7ada21f7-d7cc-4c06-b718-aaa14ab74ec1")
+	)
+	(polyline
+		(pts
+			(xy 73.66 105.41) (xy 116.84 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "af897e05-8c8f-4300-bd73-2fd87c62f6b3")
+	)
+	(polyline
+		(pts
+			(xy 106.68 99.06) (xy 116.84 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c2057cae-6d69-4a4a-bcb3-e0cbbbaa384b")
+	)
+	(polyline
+		(pts
+			(xy 68.58 26.67) (xy 55.88 26.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c79baf2b-a5b5-4e83-bf18-ce78bead26e4")
+	)
+	(polyline
+		(pts
+			(xy 81.28 53.34) (xy 111.76 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cabc51be-effd-4acf-a433-081b5901c9f9")
+	)
+	(polyline
+		(pts
+			(xy 55.88 80.01) (xy 55.88 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e0f13117-6e6f-4567-a52c-b591fe7bf272")
+	)
+	(polyline
+		(pts
+			(xy 101.6 53.34) (xy 101.6 95.25)
+		)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(uuid "fca77206-aee0-47fe-bbe4-b71d09e790e7")
+	)
+	(polyline
+		(pts
+			(xy 138.43 100.33) (xy 151.13 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ff7640e4-7178-4ab0-837c-16e3a4596fe3")
+	)
 	(sheet_instances
 		(path "/"
 			(page "1")
