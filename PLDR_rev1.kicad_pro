@@ -648,13 +648,17 @@
         "uuid": "044e3193-aa4e-4ad4-a125-51ae4829b9ed"
       }
     ],
-    "used_designators": "",
+    "used_designators": "D1-2,#PWR1-4,BT1-2,J1-2,SW1-3,K1",
     "variants": []
   },
   "sheets": [
     [
       "044e3193-aa4e-4ad4-a125-51ae4829b9ed",
       "Root"
+    ],
+    [
+      "21ff1059-a78f-4c64-a100-018957f7182e",
+      "BatteryIncoming"
     ]
   ],
   "text_variables": {},
