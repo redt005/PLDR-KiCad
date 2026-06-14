@@ -11,10 +11,80 @@
 		(company "SEED Lab University of Alberta")
 	)
 	(lib_symbols)
+	(text "19V DC BARREL JACK"
+		(exclude_from_sim no)
+		(at 83.566 90.932 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "25c92f7f-9a25-4344-8584-8f9a47cc2f7e")
+	)
+	(text "I2C"
+		(exclude_from_sim no)
+		(at 142.494 100.584 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "3a68e782-2156-46f2-9557-cd116614ff36")
+	)
+	(text "I2C"
+		(exclude_from_sim no)
+		(at 140.462 113.792 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "520a22ca-703e-479c-90fa-03e6859ba6f5")
+	)
+	(text "GPIO"
+		(exclude_from_sim no)
+		(at 123.698 114.554 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "6e79850d-be03-4fb9-9b89-f88028e4d364")
+	)
+	(text "SPI"
+		(exclude_from_sim no)
+		(at 93.726 105.41 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "a0c45190-ed55-4e0a-8534-5a9b4b2a9215")
+	)
+	(text "USB 3.0"
+		(exclude_from_sim no)
+		(at 77.216 117.348 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "bd04d812-9885-4c15-ad26-6824180b85a5")
+	)
+	(text "5V Power Rail"
+		(exclude_from_sim no)
+		(at 99.06 100.33 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "cc0ea6a9-8eee-4035-b364-abfd98915f8a")
+	)
 	(text_box "Magnetometers"
 		(exclude_from_sim no)
-		(at 148.59 129.54 0)
-		(size 16.51 8.89)
+		(at 129.54 120.65 0)
+		(size 15.24 8.89)
 		(margins 0.9525 0.9525 0.9525 0.9525)
 		(stroke
 			(width 0)
@@ -33,7 +103,7 @@
 	)
 	(text_box "CS30 Cameras"
 		(exclude_from_sim no)
-		(at 63.5 138.43 0)
+		(at 62.23 128.27 0)
 		(size 20.32 7.62)
 		(margins 0.9525 0.9525 0.9525 0.9525)
 		(stroke
@@ -51,10 +121,10 @@
 		)
 		(uuid "1d2ea9b8-0808-4aad-a8d1-d09ab51f5090")
 	)
-	(text_box "12VDC supply"
+	(text_box "12VDC Buck-Boost Regulator"
 		(exclude_from_sim no)
-		(at 63.5 58.42 0)
-		(size 17.78 11.43)
+		(at 104.14 62.23 0)
+		(size 12.7 8.89)
 		(margins 0.9525 0.9525 0.9525 0.9525)
 		(stroke
 			(width 0)
@@ -73,7 +143,7 @@
 	)
 	(text_box "Motors"
 		(exclude_from_sim no)
-		(at 111.76 106.68 0)
+		(at 104.14 81.28 0)
 		(size 11.43 8.89)
 		(margins 0.9525 0.9525 0.9525 0.9525)
 		(stroke
@@ -112,8 +182,8 @@
 	)
 	(text_box "Protection Circuits"
 		(exclude_from_sim no)
-		(at 63.5 85.09 0)
-		(size 17.78 6.35)
+		(at 63.5 46.99 0)
+		(size 17.78 7.62)
 		(margins 0.9525 0.9525 0.9525 0.9525)
 		(stroke
 			(width 0)
@@ -132,8 +202,8 @@
 	)
 	(text_box "AMT10X Rotary Encoders"
 		(exclude_from_sim no)
-		(at 124.46 129.54 0)
-		(size 16.51 8.89)
+		(at 113.03 120.65 0)
+		(size 15.24 8.89)
 		(margins 0.9525 0.9525 0.9525 0.9525)
 		(stroke
 			(width 0)
@@ -152,8 +222,8 @@
 	)
 	(text_box "TOF Sensor"
 		(exclude_from_sim no)
-		(at 167.64 106.68 0)
-		(size 16.51 8.89)
+		(at 152.4 97.79 0)
+		(size 16.51 10.16)
 		(margins 0.9525 0.9525 0.9525 0.9525)
 		(stroke
 			(width 0)
@@ -172,7 +242,7 @@
 	)
 	(text_box "STM32 Nucleo Board"
 		(exclude_from_sim no)
-		(at 133.35 104.14 0)
+		(at 118.11 95.25 0)
 		(size 21.59 15.24)
 		(margins 0.9525 0.9525 0.9525 0.9525)
 		(stroke
@@ -190,10 +260,10 @@
 		)
 		(uuid "b8d43f13-aa25-43ca-9f38-c90baafe5c21")
 	)
-	(text_box "5VDC Supply"
+	(text_box "19VDC Boost Regulator"
 		(exclude_from_sim no)
-		(at 128.27 60.96 0)
-		(size 15.24 6.35)
+		(at 66.04 62.23 0)
+		(size 12.7 8.89)
 		(margins 0.9525 0.9525 0.9525 0.9525)
 		(stroke
 			(width 0)
@@ -208,11 +278,11 @@
 				(size 1.27 1.27)
 			)
 		)
-		(uuid "ce94fc18-6c86-49c3-b89f-e028940bbd9c")
+		(uuid "c496f950-c280-4771-babc-630ea91c60bc")
 	)
 	(text_box "Jetson Orin Nano"
 		(exclude_from_sim no)
-		(at 54.61 102.87 0)
+		(at 54.61 92.71 0)
 		(size 35.56 20.32)
 		(margins 0.9525 0.9525 0.9525 0.9525)
 		(stroke
@@ -230,7 +300,7 @@
 		)
 		(uuid "e74cad01-fedb-43e6-83e0-d721cef14a14")
 	)
-	(text_box "Battery Pack\n26800 4x 3.7V cells (protected)"
+	(text_box "Battery Pack\nAEGIS 12V 10AH NMC "
 		(exclude_from_sim no)
 		(at 85.09 30.48 0)
 		(size 25.4 13.97)
@@ -251,7 +321,17 @@
 	)
 	(polyline
 		(pts
-			(xy 72.39 38.1) (xy 72.39 58.42)
+			(xy 110.49 50.8) (xy 110.49 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1297bc1d-b590-422b-bbc4-1be8e252278e")
+	)
+	(polyline
+		(pts
+			(xy 72.39 38.1) (xy 72.39 46.99)
 		)
 		(stroke
 			(width 0)
@@ -261,7 +341,7 @@
 	)
 	(polyline
 		(pts
-			(xy 137.16 119.38) (xy 137.16 129.54)
+			(xy 120.65 110.49) (xy 120.65 120.65)
 		)
 		(stroke
 			(width 0)
@@ -271,57 +351,27 @@
 	)
 	(polyline
 		(pts
-			(xy 137.16 67.31) (xy 137.16 104.14)
+			(xy 137.16 110.49) (xy 137.16 120.65)
 		)
 		(stroke
 			(width 0)
-			(type default)
-		)
-		(uuid "34edd6f0-f5a2-472c-82e6-f0fda509f550")
-	)
-	(polyline
-		(pts
-			(xy 152.4 119.38) (xy 152.4 129.54)
-		)
-		(stroke
-			(width 0)
-			(type default)
+			(type solid)
 		)
 		(uuid "3ad559bc-bc38-495c-9524-018c358ba81f")
 	)
 	(polyline
 		(pts
-			(xy 72.39 69.85) (xy 72.39 85.09)
+			(xy 81.28 50.8) (xy 104.14 50.8)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "400ae9ea-0c6e-40cd-b8a3-aef44545d3ad")
+		(uuid "40e8f6d2-022b-4ec9-9438-92868452eb7d")
 	)
 	(polyline
 		(pts
-			(xy 81.28 64.77) (xy 97.79 64.77)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4f11bc11-3bd2-47b9-9219-b6de0d2c147d")
-	)
-	(polyline
-		(pts
-			(xy 72.39 85.09) (xy 77.47 85.09)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "68265793-1b1f-4989-bbc1-9443718055ad")
-	)
-	(polyline
-		(pts
-			(xy 72.39 138.43) (xy 76.2 138.43)
+			(xy 72.39 128.27) (xy 76.2 128.27)
 		)
 		(stroke
 			(width 0)
@@ -331,7 +381,7 @@
 	)
 	(polyline
 		(pts
-			(xy 72.39 123.19) (xy 72.39 138.43)
+			(xy 72.39 113.03) (xy 72.39 128.27)
 		)
 		(stroke
 			(width 0)
@@ -341,23 +391,33 @@
 	)
 	(polyline
 		(pts
-			(xy 90.17 116.84) (xy 133.35 116.84)
+			(xy 72.39 54.61) (xy 72.39 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "91f54532-a477-4e84-87cb-5960768e0779")
+	)
+	(polyline
+		(pts
+			(xy 110.49 71.12) (xy 110.49 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a4571437-79d9-448d-8c03-6811d69c8c48")
+	)
+	(polyline
+		(pts
+			(xy 90.17 102.87) (xy 118.11 102.87)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "af897e05-8c8f-4300-bd73-2fd87c62f6b3")
-	)
-	(polyline
-		(pts
-			(xy 123.19 110.49) (xy 133.35 110.49)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c2057cae-6d69-4a4a-bcb3-e0cbbbaa384b")
 	)
 	(polyline
 		(pts
@@ -371,17 +431,7 @@
 	)
 	(polyline
 		(pts
-			(xy 97.79 64.77) (xy 128.27 64.77)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "cabc51be-effd-4acf-a433-081b5901c9f9")
-	)
-	(polyline
-		(pts
-			(xy 72.39 91.44) (xy 72.39 102.87)
+			(xy 72.39 71.12) (xy 72.39 92.71)
 		)
 		(stroke
 			(width 0)
@@ -391,32 +441,31 @@
 	)
 	(polyline
 		(pts
-			(xy 118.11 64.77) (xy 118.11 106.68)
-		)
-		(stroke
-			(width 0)
-			(type solid)
-		)
-		(uuid "fca77206-aee0-47fe-bbe4-b71d09e790e7")
-	)
-	(polyline
-		(pts
-			(xy 154.94 111.76) (xy 167.64 111.76)
+			(xy 104.14 50.8) (xy 110.49 50.8)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
+		(uuid "fe436edd-0253-47c1-927d-c215ecd4175c")
+	)
+	(polyline
+		(pts
+			(xy 139.7 102.87) (xy 152.4 102.87)
+		)
+		(stroke
+			(width 0)
+			(type solid)
+		)
 		(uuid "ff7640e4-7178-4ab0-837c-16e3a4596fe3")
 	)
 	(sheet
-		(at 49.53 26.67)
-		(size 104.14 49.53)
+		(at 60.96 26.67)
+		(size 58.42 46.99)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
 			(type solid)
@@ -426,7 +475,7 @@
 		)
 		(uuid "21ff1059-a78f-4c64-a100-018957f7182e")
 		(property "Sheetname" "BatteryIncoming"
-			(at 49.53 25.9584 0)
+			(at 60.96 25.9584 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -437,7 +486,7 @@
 			)
 		)
 		(property "Sheetfile" "BatteryIncoming.kicad_sch"
-			(at 49.53 76.7846 0)
+			(at 89.154 24.384 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects

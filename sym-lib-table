@@ -1,0 +1,8 @@
+(sym_lib_table
+	(version 7)
+	(lib (name "JACK-C-PC-10A-RA_R_") (type "KiCad") (uri "${KIPRJMOD}/PLDR Part Libraries/JACK_C_PC_10A_RA_R_/JACK-C-PC-10A-RA_R_.kicad_sym") (options "") (descr ""))
+	(lib (name "S602031MS02Q") (type "KiCad") (uri "${KIPRJMOD}/PLDR Part Libraries/S602031MS02Q/KiCADv6/2026-06-14_11-06-39.kicad_sym") (options "") (descr ""))
+	(lib (name "ASMPR45-1X2-RK") (type "KiCad") (uri "${KIPRJMOD}/PLDR Part Libraries/ASMPR45_1X2_RK/ASMPR45-1X2-RK.kicad_sym") (options "") (descr ""))
+	(lib (name "ALQ3F12") (type "KiCad") (uri "${KIPRJMOD}/PLDR Part Libraries/ALQ3F12/ALQ3F12.kicad_sym") (options "") (descr ""))
+	(lib (name "TPS55340PWPR") (type "KiCad") (uri "${KIPRJMOD}/PLDR Part Libraries/TPS55340PWPR/TPS55340PWPR.kicad_sym") (options "") (descr ""))
+)
