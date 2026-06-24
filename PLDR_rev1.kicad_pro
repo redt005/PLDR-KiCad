@@ -485,7 +485,9 @@
   },
   "libraries": {
     "pinned_footprint_libs": [],
-    "pinned_symbol_libs": []
+    "pinned_symbol_libs": [
+      "pldr_symbols"
+    ]
   },
   "meta": {
     "filename": "PLDR_rev1.kicad_pro",
@@ -648,7 +650,7 @@
         "uuid": "044e3193-aa4e-4ad4-a125-51ae4829b9ed"
       }
     ],
-    "used_designators": "D1-2,#PWR1-4,BT1-2,J1-2,SW1-3,K1",
+    "used_designators": "D1-6,#PWR1-12,BT1-3,J1-4,SW1-9,K1-3,U1-17",
     "variants": []
   },
   "sheets": [
@@ -659,6 +661,10 @@
     [
       "21ff1059-a78f-4c64-a100-018957f7182e",
       "BatteryIncoming"
+    ],
+    [
+      "9750eba6-af53-4a62-9c06-cd374b10356e",
+      "pldr_sbc_mcu"
     ]
   ],
   "text_variables": {},
