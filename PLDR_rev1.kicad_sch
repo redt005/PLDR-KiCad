@@ -456,8 +456,8 @@
 		)
 	)
 	(sheet
-		(at 49.53 82.55)
-		(size 137.16 69.85)
+		(at 105.41 81.28)
+		(size 82.55 66.04)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -470,9 +470,9 @@
 		(fill
 			(color 0 0 0 0)
 		)
-		(uuid "9750eba6-af53-4a62-9c06-cd374b10356e")
-		(property "Sheetname" "pldr_sbc_mcu"
-			(at 49.53 81.8384 0)
+		(uuid "55ca7114-5733-4079-892e-04c9a08a4460")
+		(property "Sheetname" "McuSensorMotors"
+			(at 105.41 80.5684 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -482,8 +482,8 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "pldr_sbc_mcu.kicad_sch"
-			(at 49.53 152.9846 0)
+		(property "Sheetfile" "McuSensorMotors.kicad_sch"
+			(at 105.41 147.9046 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
