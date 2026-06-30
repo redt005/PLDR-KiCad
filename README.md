@@ -18,4 +18,4 @@ NRST - Internal Reset:
 Will program resets within code and default faults -> NC to prevent signals from accidentaly reseting MCU
 
 PC4, PC4/PA2, and PC5/PA3 - Shared with PA2 and PA3:
-VCOM used by BSP already locked PA2 and PA3 pins -> NC to prevent IO to and from VCOM
+"Communication between the target STM32G4 and the STLINK-V3E MCU is enabled on LPUART1 to support the Virtual COM port" - Nucleo-G474RE user manual describing how LPUART already locked PA2 and PA3 pins -> NC to prevent IO to and from VCOM

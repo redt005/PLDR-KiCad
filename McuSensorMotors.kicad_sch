@@ -1921,7 +1921,7 @@
 		)
 		(uuid "3aec61c3-1e0e-45aa-a4bd-c9d35cc9bd59")
 	)
-	(text_box "Unused SPI signals: SPI2 (Need more info on jetson nano connections)\n\nAlso need confirmations on TBD pins and if they will be used\n\nAlso it would be nice to defin +3v3, +5V, +12V as global labels\n\nAlso need to add DIP pin settings for the AMT102-V encoders\n\nAlso it would be nice to add comments on where USB is routed maybe? I think thats extraneous to the schematic\n\nAlso it would be nice to confirm the pull up resistor values for I2C as well as any required decoupling caps/noise stuff"
+	(text_box "Unused SPI signals: SPI2 (Need more info on jetson nano connections)\n\nAlso need confirmations on TBD pins and if they will be used\n\nAlso it would be nice to defin +3v3, +5V, +12V as global labels\n\nAlso need to add DIP pin settings for the AMT102-V encoders\n\nAlso it would be nice to add comments on where USB is routed maybe? I think thats extraneous to the schematic\n"
 		(exclude_from_sim no)
 		(at 16.51 171.45 0)
 		(size 146.05 25.4)
