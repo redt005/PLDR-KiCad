@@ -3133,7 +3133,7 @@
 		)
 		(uuid "06fe24c8-4dd2-45c6-8f75-f7adda150726")
 	)
-	(label "GPIO_Output_[Loop Timing 1]"
+	(label "GPIO_Output_[Loop Timing 0]"
 		(at 238.76 60.96 0)
 		(effects
 			(font
@@ -3509,7 +3509,7 @@
 		)
 		(uuid "85617344-c17c-4c6e-bb4e-4bd1d6fbd4a7")
 	)
-	(label "GPIO_Output_[Loop Timing 2]"
+	(label "GPIO_Output_[Loop Timing 1]"
 		(at 238.76 53.34 0)
 		(effects
 			(font
@@ -3579,7 +3579,7 @@
 		)
 		(uuid "93a2fcb2-dc0d-4b9d-b656-91acba304c02")
 	)
-	(label "GPIO_Output_[Loop Timing 3]"
+	(label "GPIO_Output_[Loop Timing 2]"
 		(at 177.8 43.18 180)
 		(effects
 			(font
