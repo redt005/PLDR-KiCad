@@ -3952,7 +3952,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "12V Test Point"
+		(property "Value" "Unregulated 12V Test Point"
 			(at 120.65 131.3179 0)
 			(show_name no)
 			(do_not_autoplace no)
