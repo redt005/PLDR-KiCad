@@ -13,6 +13,9 @@ _autosave-*
 *-save.kicad_pcb
 fp-info-cache
 
+# Lock files (When project is opened and closed)
+*.lck
+
 # Netlist files (exported from Eeschema)
 *.net
 
@@ -23,3 +26,4 @@ fp-info-cache
 
 # KiCAD automatic backups (We have git for this)
 .history
+
