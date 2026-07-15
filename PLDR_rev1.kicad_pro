@@ -717,6 +717,10 @@
       "BatteryIncoming"
     ],
     [
+      "dda78583-02ac-485d-92e8-b2899097beaa",
+      "Control Power Regulator"
+    ],
+    [
       "55ca7114-5733-4079-892e-04c9a08a4460",
       "McuSensorMotors"
     ],
