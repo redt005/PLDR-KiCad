@@ -1921,7 +1921,7 @@
 		)
 		(uuid "3aec61c3-1e0e-45aa-a4bd-c9d35cc9bd59")
 	)
-	(text_box "Unused SPI signals: SPI2 (Need more info on jetson nano connections)\n\nAlso need confirmations on TBD pins and if they will be used\n\nAlso it would be nice to defin +3v3, +5V, +12V as global labels\n\nAlso need to add DIP pin settings for the AMT102-V encoders\n\nAlso it would be nice to add comments on where USB is routed maybe? I think thats extraneous to the schematic\n"
+	(text_box "Unused SPI signals: SPI2 (Need more info on jetson nano connections)\n\nAlso need confirmations on TBD pins and if they will be used\n\nAlso it would be nice to defin +3v3, +5V, +12V as global labels\n\nAlso need to add DIP pin settings for the AMT102-V encoders\n\nPins to be routed to Jetson: SPI2 pins, LPUART pins\n"
 		(exclude_from_sim no)
 		(at 16.51 171.45 0)
 		(size 146.05 25.4)
@@ -1992,10 +1992,6 @@
 		(uuid "5ea24644-9bd3-4c88-9e33-b01ea2ca07c4")
 	)
 	(no_connect
-		(at 182.88 73.66)
-		(uuid "6f8a6f1d-0b06-4a11-b130-77a55e13c873")
-	)
-	(no_connect
 		(at 106.68 43.18)
 		(uuid "742f11af-c425-48eb-8cbd-9df64ba35764")
 	)
@@ -2022,10 +2018,6 @@
 	(no_connect
 		(at 55.88 43.18)
 		(uuid "b0107b11-f39e-464e-ae88-436a39750f6f")
-	)
-	(no_connect
-		(at 182.88 71.12)
-		(uuid "be6e07e3-4a4f-4304-a774-7107669785e5")
 	)
 	(no_connect
 		(at 55.88 58.42)
@@ -2865,6 +2857,26 @@
 	)
 	(wire
 		(pts
+			(xy 177.8 71.12) (xy 182.88 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c5e8ad32-fc1a-4ba4-8398-8b5e31e90e41")
+	)
+	(wire
+		(pts
+			(xy 177.8 73.66) (xy 182.88 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c6b44c9f-e2c5-41e0-abbb-4be9ff4710db")
+	)
+	(wire
+		(pts
 			(xy 233.68 50.8) (xy 243.84 50.8)
 		)
 		(stroke
@@ -3133,7 +3145,7 @@
 		)
 		(uuid "06fe24c8-4dd2-45c6-8f75-f7adda150726")
 	)
-	(label "GPIO_Output_[Loop Timing 0]"
+	(label "GPIO_Output_[PID Loop]"
 		(at 238.76 60.96 0)
 		(effects
 			(font
@@ -3439,6 +3451,16 @@
 		)
 		(uuid "6e826f2c-5616-466b-9b82-a366ff4348e2")
 	)
+	(label "LPUART1_TX"
+		(at 177.8 71.12 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "6f61f899-9aa1-4bca-ac3f-c53b1ce55ff1")
+	)
 	(label "TIM8_CH1_[PWM]"
 		(at 238.76 30.48 0)
 		(effects
@@ -3509,7 +3531,7 @@
 		)
 		(uuid "85617344-c17c-4c6e-bb4e-4bd1d6fbd4a7")
 	)
-	(label "GPIO_Output_[Loop Timing 1]"
+	(label "GPIO_Output_[For_TIM8_CH3]"
 		(at 238.76 53.34 0)
 		(effects
 			(font
@@ -3579,7 +3601,7 @@
 		)
 		(uuid "93a2fcb2-dc0d-4b9d-b656-91acba304c02")
 	)
-	(label "GPIO_Output_[Loop Timing 2]"
+	(label "GPIO_Output_[Error Loop]"
 		(at 177.8 43.18 180)
 		(effects
 			(font
@@ -3700,7 +3722,7 @@
 		)
 		(uuid "b8c28990-f460-4f21-b455-1483eae39b5e")
 	)
-	(label "GPIO_Output_[For_TIM8_CH3]"
+	(label "SPI2_NSS"
 		(at 238.76 45.72 0)
 		(effects
 			(font
@@ -3810,6 +3832,16 @@
 			(justify left)
 		)
 		(uuid "dc86d406-c5cc-430f-aa13-6f9e053c2d3f")
+	)
+	(label "LPUART1_RX"
+		(at 177.8 73.66 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "de9e67de-c17a-4990-9d46-1178a6c1d1d3")
 	)
 	(label "UART5_TX"
 		(at 50.8 30.48 180)
@@ -3951,28 +3983,6 @@
 			(justify right)
 		)
 		(uuid "fb9382b1-699b-47b6-a16c-76059b1aed8f")
-	)
-	(hierarchical_label "SPI2_MISO"
-		(shape bidirectional)
-		(at 118.11 181.61 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "020be3cc-2c77-419c-9667-685fe645f3d1")
-	)
-	(hierarchical_label "SPI2_SCK"
-		(shape input)
-		(at 118.11 179.07 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "41eece40-5ae3-4ef8-98ea-29a6be66a710")
 	)
 	(symbol
 		(lib_id "power:+5V")
