@@ -704,7 +704,7 @@
         "uuid": "044e3193-aa4e-4ad4-a125-51ae4829b9ed"
       }
     ],
-    "used_designators": "",
+    "used_designators": "D1-6,#PWR1-28,BT1-3,J1-4,SW1-9,K1-3,U1-32",
     "variants": []
   },
   "sheets": [
@@ -719,10 +719,6 @@
     [
       "55ca7114-5733-4079-892e-04c9a08a4460",
       "McuSensorMotors"
-    ],
-    [
-      "dda78583-02ac-485d-92e8-b2899097beaa",
-      "Control Power Regulator"
     ],
     [
       "450ebfb7-8237-48e5-b6f4-e3751c13d494",
