@@ -9,5 +9,5 @@
 	(lib (name "0154010_DR") (type "KiCad") (uri "${KIPRJMOD}/PLDR Part Libraries/0154010_DR") (options "") (descr ""))
 	(lib (name "AZ943-1CH-12DE") (type "KiCad") (uri "${KIPRJMOD}/PLDR Part Libraries/AZ943-1CH-12DE") (options "") (descr ""))
 	(lib (name "D6R90_F2_LFS") (type "KiCad") (uri "${KIPRJMOD}/PLDR Part Libraries/D6R90_F2_LFS") (options "") (descr ""))
-	(lib (name "A8L_11_12N1") (type "KiCad") (uri "${KIPRJMOD}/PLDR Part Libraries/A8L_11_12N1/KiCADv6") (options "") (descr ""))
+	(lib (name "A8L_11_12N1") (type "KiCad") (uri "${KIPRJMOD}/PLDR Part Libraries/A8L_11_12N1/KiCADv6/footprints.pretty") (options "") (descr ""))
 )

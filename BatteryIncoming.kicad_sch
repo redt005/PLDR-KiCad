@@ -3369,7 +3369,7 @@
 	)
 	(text "SELECT FOOTPRINTS FOR \nD3\nR1\nSW1\nSW1\nSW3\nQ1"
 		(exclude_from_sim no)
-		(at 53.594 59.436 0)
+		(at 38.608 57.912 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3380,7 +3380,7 @@
 	)
 	(text "NOTE 4"
 		(exclude_from_sim no)
-		(at 113.284 149.86 0)
+		(at 117.602 150.114 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3443,6 +3443,12 @@
 		(uuid "60ed186b-982a-40d7-be75-cc6545248454")
 	)
 	(junction
+		(at 85.09 81.28)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6e3a9ca1-cf6c-4dfb-9aad-c1597a9c1c25")
+	)
+	(junction
 		(at 95.25 114.3)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3490,6 +3496,10 @@
 		(color 0 0 0 0)
 		(uuid "f3a2c8f0-a8dd-4d9f-b95f-72208cefb62a")
 	)
+	(no_connect
+		(at 85.09 97.79)
+		(uuid "a48dfb88-9855-4c7e-ab3e-0a493a74f24c")
+	)
 	(wire
 		(pts
 			(xy 111.76 134.62) (xy 111.76 133.35)
@@ -3532,7 +3542,7 @@
 	)
 	(wire
 		(pts
-			(xy 102.87 85.09) (xy 102.87 83.82)
+			(xy 102.87 85.09) (xy 102.87 81.28)
 		)
 		(stroke
 			(width 0)
@@ -3582,7 +3592,7 @@
 	)
 	(wire
 		(pts
-			(xy 85.09 83.82) (xy 85.09 97.79)
+			(xy 78.74 81.28) (xy 78.74 105.41)
 		)
 		(stroke
 			(width 0)
@@ -3609,6 +3619,16 @@
 			(type default)
 		)
 		(uuid "57224b4c-5b81-41f8-97f9-c4047276a63b")
+	)
+	(wire
+		(pts
+			(xy 85.09 81.28) (xy 78.74 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "57434d00-3d8d-45a0-807d-1ea1b2e488ec")
 	)
 	(wire
 		(pts
@@ -3662,7 +3682,7 @@
 	)
 	(wire
 		(pts
-			(xy 102.87 83.82) (xy 85.09 83.82)
+			(xy 102.87 81.28) (xy 85.09 81.28)
 		)
 		(stroke
 			(width 0)
@@ -3722,13 +3742,13 @@
 	)
 	(wire
 		(pts
-			(xy 85.09 69.85) (xy 85.09 73.66)
+			(xy 78.74 105.41) (xy 82.55 105.41)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "8e7b9a09-0443-4726-ac78-3f07b975a995")
+		(uuid "9a46469f-015e-4904-9704-93b9c3664c3f")
 	)
 	(wire
 		(pts
@@ -3889,6 +3909,16 @@
 			(type default)
 		)
 		(uuid "ce952ce6-b702-4385-a8e1-fe388d478532")
+	)
+	(wire
+		(pts
+			(xy 85.09 80.01) (xy 85.09 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d13818fd-028d-4685-8232-92de0bacaf68")
 	)
 	(wire
 		(pts
@@ -5082,7 +5112,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-223"
 			(at 100.33 130.81 0)
 			(hide yes)
 			(show_name no)
@@ -5167,7 +5197,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
 			(at 101.092 149.86 90)
 			(hide yes)
 			(show_name no)
@@ -5298,8 +5328,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Switch:SW_Push")
-		(at 85.09 78.74 270)
+		(lib_id "Switch:SW_Push_Open")
+		(at 85.09 74.93 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -5310,7 +5340,7 @@
 		(fields_autoplaced yes)
 		(uuid "ba65abd9-f336-47ed-975b-56d33c6a5e92")
 		(property "Reference" "SW3"
-			(at 88.9 77.4699 90)
+			(at 87.63 73.6599 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5321,7 +5351,7 @@
 			)
 		)
 		(property "Value" "E-Stop"
-			(at 88.9 80.0099 90)
+			(at 87.63 76.1999 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5331,8 +5361,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
-			(at 90.17 78.74 0)
+		(property "Footprint" "A8L_11_12N1:SW_A8L-11_OMR"
+			(at 90.17 74.93 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5343,7 +5373,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 90.17 78.74 0)
+			(at 90.17 74.93 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5353,8 +5383,8 @@
 				)
 			)
 		)
-		(property "Description" "Push button switch, generic, two pins"
-			(at 85.09 78.74 0)
+		(property "Description" "Push button switch, push-to-open, generic, two pins"
+			(at 85.09 74.93 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5700,7 +5730,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_SMB"
 			(at 111.76 138.43 0)
 			(hide yes)
 			(show_name no)
