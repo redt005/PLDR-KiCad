@@ -704,7 +704,7 @@
         "uuid": "044e3193-aa4e-4ad4-a125-51ae4829b9ed"
       }
     ],
-    "used_designators": "#PWR8-9,D1,D5",
+    "used_designators": "SW1-2,#PWR11,#PWR23,#PWR27-29,D6,U2,J4",
     "variants": []
   },
   "sheets": [
@@ -731,6 +731,10 @@
     [
       "b78d4eb9-4395-4f97-b470-dfb7b810c700",
       "SwerveDrive2"
+    ],
+    [
+      "6f33987f-cf25-44af-9045-dcc1f63c8fac",
+      "Jetson Header"
     ],
     [
       "f5a0aca7-6cd2-4b9c-94cb-71673039e3df",
