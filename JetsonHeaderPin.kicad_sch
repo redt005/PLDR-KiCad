@@ -1893,6 +1893,16 @@
 	)
 	(wire
 		(pts
+			(xy 158.75 72.39) (xy 190.5 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "aacb9223-dc2c-40ec-aadb-8da235c4bc57")
+	)
+	(wire
+		(pts
 			(xy 158.75 100.33) (xy 165.1 100.33)
 		)
 		(stroke
@@ -1923,6 +1933,16 @@
 	)
 	(wire
 		(pts
+			(xy 158.75 74.93) (xy 190.5 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cc520ad2-029b-4269-8d09-73afcca3561b")
+	)
+	(wire
+		(pts
 			(xy 158.75 105.41) (xy 165.1 105.41)
 		)
 		(stroke
@@ -1940,6 +1960,16 @@
 			(type default)
 		)
 		(uuid "f0cbf7f0-a5f0-4184-8d2b-6926db9409e4")
+	)
+	(label "LPUART1_TX"
+		(at 190.5 74.93 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "2388b7c7-58fd-4839-996c-4f23c8e09379")
 	)
 	(label "SPI2_NSS"
 		(at 190.5 92.71 0)
@@ -1970,6 +2000,16 @@
 			(justify right)
 		)
 		(uuid "afc58755-36e4-4163-babf-b3d6c3c02b65")
+	)
+	(label "LPUART1_RX"
+		(at 190.5 72.39 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "c4f16f87-98d6-44c8-86b5-6ddc1ce38441")
 	)
 	(symbol
 		(lib_id "Connector_Generic_MountingPin:Conn_02x20_Odd_Even_MountingPin")
