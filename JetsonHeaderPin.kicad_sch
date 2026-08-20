@@ -1307,6 +1307,146 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Device:R"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "R"
+				(at 2.032 0 90)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "R"
+				(at 0 0 90)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at -1.778 0 90)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Resistor"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "R res resistor"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "R_*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "R_0_1"
+				(rectangle
+					(start -1.016 -2.54)
+					(end 1.016 2.54)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "R_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 1.27)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 1.27)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "power:+3V3"
 			(power global)
 			(pin_numbers
@@ -1750,6 +1890,12 @@
 		(uuid "45018872-553f-4d79-a816-68c6f4c85508")
 	)
 	(junction
+		(at 175.26 92.71)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7f227c94-1b46-439d-a0a6-14e528ae9fbb")
+	)
+	(junction
 		(at 165.1 87.63)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1761,6 +1907,10 @@
 		(color 0 0 0 0)
 		(uuid "f8635a3f-281c-48b0-b5df-e169e30a31bf")
 	)
+	(no_connect
+		(at 196.85 90.17)
+		(uuid "fa049d1c-9118-4336-8a29-77470087791a")
+	)
 	(wire
 		(pts
 			(xy 139.7 74.93) (xy 139.7 115.57)
@@ -1770,6 +1920,16 @@
 			(type default)
 		)
 		(uuid "02fd9645-3906-434a-9152-2d2d1138c89b")
+	)
+	(wire
+		(pts
+			(xy 175.26 91.44) (xy 175.26 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "094c6169-d46c-448d-8717-c8169618ea09")
 	)
 	(wire
 		(pts
@@ -1853,7 +2013,7 @@
 	)
 	(wire
 		(pts
-			(xy 158.75 92.71) (xy 190.5 92.71)
+			(xy 158.75 92.71) (xy 175.26 92.71)
 		)
 		(stroke
 			(width 0)
@@ -1920,6 +2080,16 @@
 			(type default)
 		)
 		(uuid "bf566cce-73a7-4c38-85b7-ec17532385b2")
+	)
+	(wire
+		(pts
+			(xy 175.26 92.71) (xy 190.5 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c5241004-3164-4177-8b0e-110dc683437d")
 	)
 	(wire
 		(pts
@@ -2209,6 +2379,88 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R")
+		(at 175.26 87.63 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5a1c2d45-9b47-4c3f-b966-f52087ffbf26")
+		(property "Reference" "R8"
+			(at 177.8 86.3599 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1k"
+			(at 177.8 88.8999 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 173.482 87.63 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 175.26 87.63 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 175.26 87.63 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "e03532a9-5a0a-429a-b8df-e2af9adcb7c5")
+		)
+		(pin "1"
+			(uuid "1c69cf7f-0978-4dd1-abe4-bbf07f9a9ddd")
+		)
+		(instances
+			(project "PLDR_rev1"
+				(path "/044e3193-aa4e-4ad4-a125-51ae4829b9ed/6f33987f-cf25-44af-9045-dcc1f63c8fac"
+					(reference "R8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 139.7 115.57 0)
 		(unit 1)
@@ -2220,7 +2472,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7e7cc372-9f92-4fb0-9395-ba580d0ba43f")
-		(property "Reference" "#PWR028"
+		(property "Reference" "#PWR026"
 			(at 139.7 121.92 0)
 			(hide yes)
 			(show_name no)
@@ -2280,7 +2532,85 @@
 		(instances
 			(project "PLDR_rev1"
 				(path "/044e3193-aa4e-4ad4-a125-51ae4829b9ed/6f33987f-cf25-44af-9045-dcc1f63c8fac"
-					(reference "#PWR028")
+					(reference "#PWR026")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3V3")
+		(at 175.26 83.82 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "aeed6068-b907-42d5-b548-4d4ce0ee62d2")
+		(property "Reference" "#PWR040"
+			(at 175.26 87.63 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 175.26 78.74 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 175.26 83.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 175.26 83.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 175.26 83.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "66e96e9a-8758-4bde-8f6b-c43b9e89c802")
+		)
+		(instances
+			(project "PLDR_rev1"
+				(path "/044e3193-aa4e-4ad4-a125-51ae4829b9ed/6f33987f-cf25-44af-9045-dcc1f63c8fac"
+					(reference "#PWR040")
 					(unit 1)
 				)
 			)
@@ -2298,7 +2628,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ce1ab7f9-750d-453c-ae94-4e124eaa5f3b")
-		(property "Reference" "#PWR011"
+		(property "Reference" "#PWR025"
 			(at 127 68.58 0)
 			(hide yes)
 			(show_name no)
@@ -2358,7 +2688,7 @@
 		(instances
 			(project "PLDR_rev1"
 				(path "/044e3193-aa4e-4ad4-a125-51ae4829b9ed/6f33987f-cf25-44af-9045-dcc1f63c8fac"
-					(reference "#PWR011")
+					(reference "#PWR025")
 					(unit 1)
 				)
 			)
@@ -2376,7 +2706,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f5fe7224-88b2-4c8f-8b52-858cc3203148")
-		(property "Reference" "#PWR023"
+		(property "Reference" "#PWR031"
 			(at 177.8 68.58 0)
 			(hide yes)
 			(show_name no)
@@ -2436,7 +2766,7 @@
 		(instances
 			(project "PLDR_rev1"
 				(path "/044e3193-aa4e-4ad4-a125-51ae4829b9ed/6f33987f-cf25-44af-9045-dcc1f63c8fac"
-					(reference "#PWR023")
+					(reference "#PWR031")
 					(unit 1)
 				)
 			)
@@ -2454,7 +2784,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f6cd9525-e08a-4d99-b1ea-a3a9d65d2b12")
-		(property "Reference" "#PWR027"
+		(property "Reference" "#PWR030"
 			(at 165.1 121.92 0)
 			(hide yes)
 			(show_name no)
@@ -2514,7 +2844,7 @@
 		(instances
 			(project "PLDR_rev1"
 				(path "/044e3193-aa4e-4ad4-a125-51ae4829b9ed/6f33987f-cf25-44af-9045-dcc1f63c8fac"
-					(reference "#PWR027")
+					(reference "#PWR030")
 					(unit 1)
 				)
 			)

@@ -3996,7 +3996,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0674d3d6-bb1e-4e6f-b0b8-11754118296d")
-		(property "Reference" "#PWR?"
+		(property "Reference" "#PWR011"
 			(at 121.92 24.13 0)
 			(hide yes)
 			(show_name no)
@@ -4056,7 +4056,7 @@
 		(instances
 			(project "PLDR_rev1"
 				(path "/044e3193-aa4e-4ad4-a125-51ae4829b9ed/55ca7114-5733-4079-892e-04c9a08a4460"
-					(reference "#PWR?")
+					(reference "#PWR011")
 					(unit 1)
 				)
 			)
@@ -4074,7 +4074,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1aa62120-4222-4597-8632-e0d3ce086d55")
-		(property "Reference" "#PWR?"
+		(property "Reference" "#PWR012"
 			(at 127 24.13 0)
 			(hide yes)
 			(show_name no)
@@ -4134,7 +4134,7 @@
 		(instances
 			(project "PLDR_rev1"
 				(path "/044e3193-aa4e-4ad4-a125-51ae4829b9ed/55ca7114-5733-4079-892e-04c9a08a4460"
-					(reference "#PWR?")
+					(reference "#PWR012")
 					(unit 1)
 				)
 			)
@@ -4152,7 +4152,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "41e805bd-30a4-491c-8726-a39f5f56af24")
-		(property "Reference" "U1"
+		(property "Reference" "U2"
 			(at 81.28 20.32 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4485,7 +4485,7 @@
 		(instances
 			(project "PLDR_rev1"
 				(path "/044e3193-aa4e-4ad4-a125-51ae4829b9ed/55ca7114-5733-4079-892e-04c9a08a4460"
-					(reference "U1")
+					(reference "U2")
 					(unit 1)
 				)
 			)
@@ -4503,7 +4503,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4a2e181b-cb46-4ae6-ac5e-220ca0d964fe")
-		(property "Reference" "#PWR?"
+		(property "Reference" "#PWR010"
 			(at 116.84 87.63 0)
 			(hide yes)
 			(show_name no)
@@ -4563,7 +4563,7 @@
 		(instances
 			(project "PLDR_rev1"
 				(path "/044e3193-aa4e-4ad4-a125-51ae4829b9ed/55ca7114-5733-4079-892e-04c9a08a4460"
-					(reference "#PWR?")
+					(reference "#PWR010")
 					(unit 1)
 				)
 			)
@@ -4581,7 +4581,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "711ce152-4bbd-4bf0-960e-3e670ea459f0")
-		(property "Reference" "#PWR?"
+		(property "Reference" "#PWR08"
 			(at 45.72 24.13 0)
 			(hide yes)
 			(show_name no)
@@ -4641,7 +4641,7 @@
 		(instances
 			(project "PLDR_rev1"
 				(path "/044e3193-aa4e-4ad4-a125-51ae4829b9ed/55ca7114-5733-4079-892e-04c9a08a4460"
-					(reference "#PWR?")
+					(reference "#PWR08")
 					(unit 1)
 				)
 			)
@@ -4659,7 +4659,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9459ea45-f0b9-45e5-8492-01ddacef79dd")
-		(property "Reference" "#PWR?"
+		(property "Reference" "#PWR016"
 			(at 172.72 86.36 0)
 			(hide yes)
 			(show_name no)
@@ -4719,7 +4719,7 @@
 		(instances
 			(project "PLDR_rev1"
 				(path "/044e3193-aa4e-4ad4-a125-51ae4829b9ed/55ca7114-5733-4079-892e-04c9a08a4460"
-					(reference "#PWR?")
+					(reference "#PWR016")
 					(unit 1)
 				)
 			)
@@ -4737,7 +4737,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b88b179f-8cc6-4cc2-b852-f8fc58bc2548")
-		(property "Reference" "U1"
+		(property "Reference" "U2"
 			(at 208.28 20.32 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5070,7 +5070,7 @@
 		(instances
 			(project "PLDR_rev1"
 				(path "/044e3193-aa4e-4ad4-a125-51ae4829b9ed/55ca7114-5733-4079-892e-04c9a08a4460"
-					(reference "U1")
+					(reference "U2")
 					(unit 2)
 				)
 			)
@@ -5088,7 +5088,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "bb72b853-bbc0-49b8-aa29-6d1a45923c79")
-		(property "Reference" "#PWR01"
+		(property "Reference" "#PWR017"
 			(at 243.84 87.63 0)
 			(hide yes)
 			(show_name no)
@@ -5148,7 +5148,7 @@
 		(instances
 			(project "PLDR_rev1"
 				(path "/044e3193-aa4e-4ad4-a125-51ae4829b9ed/55ca7114-5733-4079-892e-04c9a08a4460"
-					(reference "#PWR01")
+					(reference "#PWR017")
 					(unit 1)
 				)
 			)
@@ -5166,7 +5166,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c6f69b06-ed7b-4718-bc2c-5d2193caf274")
-		(property "Reference" "#PWR?"
+		(property "Reference" "#PWR09"
 			(at 45.72 87.63 0)
 			(hide yes)
 			(show_name no)
@@ -5226,7 +5226,7 @@
 		(instances
 			(project "PLDR_rev1"
 				(path "/044e3193-aa4e-4ad4-a125-51ae4829b9ed/55ca7114-5733-4079-892e-04c9a08a4460"
-					(reference "#PWR?")
+					(reference "#PWR09")
 					(unit 1)
 				)
 			)
