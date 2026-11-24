@@ -1,0 +1,666 @@
+(kicad_sch
+	(version 20260306)
+	(generator "eeschema")
+	(generator_version "10.0")
+	(uuid "044e3193-aa4e-4ad4-a125-51ae4829b9ed")
+	(paper "A4")
+	(title_block
+		(title "Conceptual Overview")
+		(date "2026-06-09")
+		(rev "0")
+		(company "SEED Lab University of Alberta")
+	)
+	(lib_symbols)
+	(text "5V Power Rail\nSPI / UART"
+		(exclude_from_sim no)
+		(at 92.456 113.538 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "1c73f511-6266-4bb0-bee4-adc5122e7a1b")
+	)
+	(text "USB 3.0\n"
+		(exclude_from_sim no)
+		(at 67.056 85.852 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "29f95e20-0c3c-4dbd-8545-f626f434a904")
+	)
+	(text "GPIO"
+		(exclude_from_sim no)
+		(at 66.04 150.622 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "62bcfec3-9e89-489c-b9b1-18e68c206b1a")
+	)
+	(text "19V Barrel Jack"
+		(exclude_from_sim no)
+		(at 98.806 77.216 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "6cecb2ce-4f75-46e6-a7cb-fb81f7c6ae69")
+	)
+	(text "I2C"
+		(exclude_from_sim no)
+		(at 87.884 150.876 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "a0066c60-6c7e-42ad-8309-82769c723805")
+	)
+	(text "I2C"
+		(exclude_from_sim no)
+		(at 109.474 150.876 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "fcf0006c-fd85-4fc9-b3b9-80bd51f12afd")
+	)
+	(text_box "Magnetometers"
+		(exclude_from_sim no)
+		(at 81.28 152.4 0)
+		(size 17.78 7.62)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(type color)
+			(color 0 255 255 1)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "06439741-149c-489d-a091-72084aa05004")
+	)
+	(text_box "CS30 Cameras"
+		(exclude_from_sim no)
+		(at 40.64 83.82 0)
+		(size 20.32 7.62)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(type color)
+			(color 0 255 255 1)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "1d2ea9b8-0808-4aad-a8d1-d09ab51f5090")
+	)
+	(text_box "DC Barrel Jack"
+		(exclude_from_sim no)
+		(at 139.7 20.32 0)
+		(size 19.05 7.62)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "31934863-0906-4a2b-ac78-f05e492283ca")
+	)
+	(text_box "19VDC Boost Regulator"
+		(exclude_from_sim no)
+		(at 82.55 57.15 0)
+		(size 15.24 7.62)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(type color)
+			(color 235 255 86 1)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "3e8ff6ca-1f4a-41c5-bfdc-9d0af2fa49b2")
+	)
+	(text_box "Motors"
+		(exclude_from_sim no)
+		(at 143.51 128.27 0)
+		(size 10.16 10.16)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(type color)
+			(color 255 124 34 1)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "47598122-86c4-44ae-9910-9123e53360d5")
+	)
+	(text_box ""
+		(exclude_from_sim no)
+		(at 127 35.56 0)
+		(size 0 0)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "48e04f22-9b0b-4146-b193-e3092b45a728")
+	)
+	(text_box "Protection Circuits"
+		(exclude_from_sim no)
+		(at 125.73 40.64 0)
+		(size 17.78 6.35)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(type color)
+			(color 255 110 95 1)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "4f18a03d-05ab-43ba-9ae9-c21cbb6c49ef")
+	)
+	(text_box "AMT10X Rotary Encoders"
+		(exclude_from_sim no)
+		(at 60.96 152.3999 0)
+		(size 17.78 7.6201)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(type color)
+			(color 0 255 255 1)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "81ee8f8c-1506-42f0-b5a4-050f58f8907d")
+	)
+	(text_box "TOF Sensor"
+		(exclude_from_sim no)
+		(at 102.87 152.4 0)
+		(size 17.78 7.62)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(type color)
+			(color 0 255 255 1)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "9a3d8604-3985-47d5-94d4-eb84b992040a")
+	)
+	(text_box "STM32 Nucleo Board"
+		(exclude_from_sim no)
+		(at 78.74 125.73 0)
+		(size 22.86 15.24)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(type color)
+			(color 49 255 136 1)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "b8d43f13-aa25-43ca-9f38-c90baafe5c21")
+	)
+	(text_box "Jetson Orin Nano"
+		(exclude_from_sim no)
+		(at 72.39 78.74 0)
+		(size 35.56 20.32)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(type color)
+			(color 49 255 136 1)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "e74cad01-fedb-43e6-83e0-d721cef14a14")
+	)
+	(text_box "AEGIS 12V 10AH NMC\n"
+		(exclude_from_sim no)
+		(at 109.22 20.32 0)
+		(size 19.05 7.62)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "f0d25e76-c52d-431b-99a1-f3abbba6b100")
+	)
+	(polyline
+		(pts
+			(xy 90.17 53.34) (xy 90.17 57.15)
+		)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(uuid "1aa581f2-28a7-4af3-aeea-6afb25da9a11")
+	)
+	(polyline
+		(pts
+			(xy 148.59 77.47) (xy 148.59 128.27)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2d8906b6-3555-4aa6-a920-15683980a5cf")
+	)
+	(polyline
+		(pts
+			(xy 90.17 140.97) (xy 90.17 152.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "30983368-8ac4-4c5c-90e0-bb67e8124dcc")
+	)
+	(polyline
+		(pts
+			(xy 149.86 27.94) (xy 149.86 35.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3cec0b4a-a9c8-4168-a4ba-95f2ff056797")
+	)
+	(polyline
+		(pts
+			(xy 90.17 147.32) (xy 111.76 147.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "46d53aa6-7a6f-4438-a336-15e9f1b73323")
+	)
+	(polyline
+		(pts
+			(xy 118.11 27.94) (xy 118.11 35.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4fcb07b1-6811-4fa8-a2ac-8da8ab6b5c52")
+	)
+	(polyline
+		(pts
+			(xy 60.96 87.63) (xy 72.39 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "58032e04-e04b-44a7-be9c-f64db05ee756")
+	)
+	(polyline
+		(pts
+			(xy 69.85 147.32) (xy 69.85 152.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5a61bcea-c328-4a53-9721-cdbbf9b26f81")
+	)
+	(polyline
+		(pts
+			(xy 148.59 77.47) (xy 148.59 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "657fe3dc-895d-4bc3-8d6a-1aea7d71ed16")
+	)
+	(polyline
+		(pts
+			(xy 134.62 53.34) (xy 148.59 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "685f3ec8-1e00-4148-ac1b-4a9232cc8198")
+	)
+	(polyline
+		(pts
+			(xy 101.6 133.35) (xy 143.51 133.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "75675779-2ec8-4b0e-9305-a5f049be9521")
+	)
+	(polyline
+		(pts
+			(xy 90.17 99.06) (xy 90.17 125.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7a3c46f7-ce2a-4713-891b-97abf8e0427f")
+	)
+	(polyline
+		(pts
+			(xy 134.62 46.99) (xy 134.62 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "818ced51-f4ab-407a-84e7-11724d314c15")
+	)
+	(polyline
+		(pts
+			(xy 111.76 147.32) (xy 111.76 152.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8517dc0f-be0c-4ac5-9d5d-b35e3345b06f")
+	)
+	(polyline
+		(pts
+			(xy 90.17 147.32) (xy 69.85 147.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8a722895-f91b-4980-bba3-4d9662e6a0ad")
+	)
+	(polyline
+		(pts
+			(xy 148.59 53.34) (xy 147.32 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "935dab6d-56ad-442c-98f6-ed82d9bdf569")
+	)
+	(polyline
+		(pts
+			(xy 149.86 35.56) (xy 134.62 35.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9d3cf980-151b-4c8e-81f7-b94537a7d89b")
+	)
+	(polyline
+		(pts
+			(xy 118.11 35.56) (xy 134.62 35.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b3ac46ce-88d3-4bbb-b747-a4784609f064")
+	)
+	(polyline
+		(pts
+			(xy 134.62 53.34) (xy 90.17 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c54b86d2-4d9e-4297-967a-f8e1493a10d2")
+	)
+	(polyline
+		(pts
+			(xy 90.17 64.77) (xy 90.17 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c73e8956-d5bd-4df3-b8e3-57c0a25066fc")
+	)
+	(polyline
+		(pts
+			(xy 134.62 35.56) (xy 134.62 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "df771233-0f39-462a-a2d6-ae81748f0245")
+	)
+	(sheet
+		(at 80.01 17.78)
+		(size 81.28 49.53)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "21ff1059-a78f-4c64-a100-018957f7182e")
+		(property "Sheetname" "BatteryIncoming"
+			(at 80.01 17.0684 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "BatteryIncoming.kicad_sch"
+			(at 80.01 67.8946 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "PLDR_rev1"
+				(path "/044e3193-aa4e-4ad4-a125-51ae4829b9ed"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 58.42 119.38)
+		(size 97.79 44.45)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "55ca7114-5733-4079-892e-04c9a08a4460")
+		(property "Sheetname" "McuSensorMotors"
+			(at 58.42 118.6684 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "McuSensorMotors.kicad_sch"
+			(at 58.42 164.4146 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "PLDR_rev1"
+				(path "/044e3193-aa4e-4ad4-a125-51ae4829b9ed"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 71.12 73.66)
+		(size 38.1 29.21)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "6f33987f-cf25-44af-9045-dcc1f63c8fac")
+		(property "Sheetname" "Jetson Header"
+			(at 71.12 72.9484 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "JetsonHeaderPin.kicad_sch"
+			(at 71.12 103.4546 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "PLDR_rev1"
+				(path "/044e3193-aa4e-4ad4-a125-51ae4829b9ed"
+					(page "5")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
+)
