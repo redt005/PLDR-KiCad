@@ -1054,9 +1054,6 @@
 			(embedded_fonts no)
 		)
 		(symbol "Device:Q_PMOS"
-			(pin_numbers
-				(hide yes)
-			)
 			(pin_names
 				(offset 0)
 				(hide yes)
@@ -1066,29 +1063,27 @@
 			(on_board yes)
 			(in_pos_files yes)
 			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "Q"
-				(at 5.08 1.27 0)
+			(property "Reference" "Q1"
+				(at 8.89 0 90)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left)
 				)
 			)
-			(property "Value" "Q_PMOS"
-				(at 5.08 -1.27 0)
+			(property "Value" "NDT456P"
+				(at 6.35 0 90)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left)
 				)
 			)
-			(property "Footprint" ""
+			(property "Footprint" "TJ10S04M3L,LXHQ:DIO_FERD20H100SB-TR"
 				(at 5.08 2.54 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1300,24 +1295,6 @@
 				)
 			)
 			(symbol "Q_PMOS_1_1"
-				(pin passive line
-					(at 2.54 5.08 270)
-					(length 2.54)
-					(name "D"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "D"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
 				(pin input line
 					(at -5.08 0 0)
 					(length 2.54)
@@ -1328,7 +1305,25 @@
 							)
 						)
 					)
-					(number "G"
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 5.08 270)
+					(length 2.54)
+					(name "D"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1346,7 +1341,7 @@
 							)
 						)
 					)
-					(number "S"
+					(number "3"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -3552,6 +3547,16 @@
 	)
 	(wire
 		(pts
+			(xy 78.74 105.41) (xy 82.55 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "20c2efd3-bdf1-4fcc-bb19-e74c1ae25895")
+	)
+	(wire
+		(pts
 			(xy 92.71 55.88) (xy 85.09 55.88)
 		)
 		(stroke
@@ -3739,16 +3744,6 @@
 			(type default)
 		)
 		(uuid "88d3e84d-d499-47c0-b0a5-fc53938bebaf")
-	)
-	(wire
-		(pts
-			(xy 78.74 105.41) (xy 82.55 105.41)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9a46469f-015e-4904-9704-93b9c3664c3f")
 	)
 	(wire
 		(pts
@@ -5112,7 +5107,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-223"
+		(property "Footprint" "TJ10S04M3L,LXHQ:DIO_FERD20H100SB-TR"
 			(at 100.33 130.81 0)
 			(hide yes)
 			(show_name no)
@@ -5145,13 +5140,13 @@
 				)
 			)
 		)
-		(pin "G"
+		(pin "3"
 			(uuid "f83ade9c-7212-4a4a-a1d2-c8c40a93ef49")
 		)
-		(pin "S"
+		(pin "1"
 			(uuid "fff72a60-8f43-43d9-8b13-b5a27721c1dd")
 		)
-		(pin "D"
+		(pin "2"
 			(uuid "73ac7318-67d4-4e7e-9b93-f79e59aa4aa5")
 		)
 		(instances
