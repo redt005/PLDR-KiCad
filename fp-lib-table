@@ -11,4 +11,5 @@
 	(lib (name "D6R90_F2_LFS") (type "KiCad") (uri "${KIPRJMOD}/PLDR Part Libraries/D6R90_F2_LFS") (options "") (descr ""))
 	(lib (name "A8L_11_12N1") (type "KiCad") (uri "${KIPRJMOD}/PLDR Part Libraries/A8L_11_12N1/KiCADv6/footprints.pretty") (options "") (descr ""))
 	(lib (name "TJ10S04M3L,LXHQ") (type "KiCad") (uri "${KIPRJMOD}/PLDR Part Libraries/TJ10S04M3L,LXHQ") (options "") (descr ""))
+	(lib (name "61304021821") (type "KiCad") (uri "${KIPRJMOD}/PLDR Part Libraries/61304021821") (options "") (descr ""))
 )

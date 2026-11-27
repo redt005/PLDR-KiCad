@@ -2213,7 +2213,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_IDC:IDC-Header_2x20-1MP_P2.54mm_Latch6.5mm_Vertical"
+		(property "Footprint" "61304021821:61304021821"
 			(at 151.13 87.63 0)
 			(hide yes)
 			(show_name no)

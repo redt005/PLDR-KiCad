@@ -10,4 +10,5 @@
 	(lib (name "AZ943-1CH-12DE") (type "KiCad") (uri "${KIPRJMOD}/PLDR Part Libraries/AZ943-1CH-12DE/AZ943-1CH-12DE.kicad_sym") (options "") (descr ""))
 	(lib (name "D6R90_F2_LFS") (type "KiCad") (uri "${KIPRJMOD}/PLDR Part Libraries/D6R90_F2_LFS/D6R90_F2_LFS.kicad_sym") (options "") (descr ""))
 	(lib (name "A8L_11_12N1") (type "KiCad") (uri "${KIPRJMOD}/PLDR Part Libraries/A8L_11_12N1/KiCADv6/2026-08-06_07-42-55.kicad_sym") (options "") (descr ""))
+	(lib (name "6130XX21821_61304021821") (type "KiCad") (uri "${KIPRJMOD}/PLDR Part Libraries/61304021821/6130XX21821_61304021821.kicad_sym") (options "") (descr ""))
 )
